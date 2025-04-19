@@ -24,8 +24,5 @@ A simple and interactive budget tracking web app that helps users manage their i
 - **Chart.js** – Monthly expense bar chart
 
 ## How to run
-
-1. Clone the repository:
-   ```bash
    git clone
    https://github.com/tech-imrani/budget-tracker.git
