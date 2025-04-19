@@ -25,4 +25,4 @@ A simple and interactive budget tracking web app that helps users manage their i
 
 ## How to run
    git clone
-   https://github.com/tech-imrani/budget-tracker.git
+   https://tech-imrani.github.io/budget-tracker/
