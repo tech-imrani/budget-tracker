@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Budget Tracker - KSh</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Budget Tracker (KSh)</h2>
+    <h4>Your Balance</h4>
+    <h1 id="balance">KSh 0.00</h1>
+
+    <div class="inc-exp-container">
+      <div>
+        <h4>Income</h4>
+        <p id="income" class="money plus">+KSh 0.00</p>
+      </div>
+      <div>
+        <h4>Expense</h4>
+        <p id="expense" class="money minus">-KSh 0.00</p>
+      </div>
+    </div>
+
+    <h3>Add Transaction</h3>
+    <form id="form">
+      <input type="text" id="text" placeholder="Description" required />
+      <input type="number" id="amount" placeholder="Amount (e.g. -5000 for expense)" required />
+      <input type="date" id="date" required />
+      <button type="submit">Add Transaction</button>
+    </form>
+
+    <h3>History</h3>
+    <ul id="list" class="list"></ul>
+
+    <h3>Monthly Expenses Chart</h3>
+    <canvas id="expensesChart" width="100%" height="100"></canvas>
+  </div>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
